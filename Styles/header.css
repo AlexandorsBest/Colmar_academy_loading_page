@@ -1,0 +1,46 @@
+.header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(228, 228, 228);
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding-left: 24px;
+}
+
+.colmar-logo, .academy-logo {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.colmar-logo {
+    color: gray;
+}
+
+.academy-logo {
+    color: lightgray;
+}
+
+.right-section {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
