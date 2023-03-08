@@ -1,7 +1,5 @@
-@media screen and (min-width: 641px) {
-    .banner img {
-        width: 60%;
-    }
+.banner {
+    width: 100%;
 }
 
 .section-1-grid {
@@ -55,3 +53,6 @@
     padding-bottom: 24px;
 }
 
+.section-2-left {
+ 
+}
