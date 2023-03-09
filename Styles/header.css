@@ -41,6 +41,7 @@
     margin-right: 24px;
     display: flex;
     text-align: right;
+    align-items: center;
 }
 
 .nav {

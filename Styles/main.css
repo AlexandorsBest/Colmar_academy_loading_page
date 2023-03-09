@@ -1,5 +1,5 @@
 .banner {
-    width: 100%;
+    
 }
 
 .section-1-grid {
@@ -53,6 +53,44 @@
     padding-bottom: 24px;
 }
 
+
+.section-2-row {
+    display: flex;
+    margin: 0;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    gap: 0px 24px;
+}
+
 .section-2-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 32px;
+    
  
+}
+
+.section-2-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.section-2-right-flex {
+    display: flex;
+}
+
+.small-image {
+    width: 35%;
+    margin: 1rem;
+    height: auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
 }
