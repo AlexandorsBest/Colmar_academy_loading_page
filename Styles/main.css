@@ -94,3 +94,9 @@
     gap: 8px;
     justify-content: center;
 }
+
+
+.section-3 {
+    background-color: lightgray;
+    display: grid;
+}
