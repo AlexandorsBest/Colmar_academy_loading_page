@@ -98,5 +98,41 @@
 
 .section-3 {
     background-color: lightgray;
+    
+}
+
+.learning {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.course-grid {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 32px;
+    padding-bottom: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.section-3 img {
+    width: 100%;
+    height: auto;
+}
+
+.course-text {
+    background-color: white;
+    padding: 16px;
+    text-align: left;
+}
+
+.section-3 h2, p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.section-4 {
+    background-color: white;
 }
