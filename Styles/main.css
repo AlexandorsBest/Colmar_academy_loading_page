@@ -34,6 +34,14 @@
 
 }
 
+
+
+
+
+
+
+
+
 .section-2-row {
     display: flex;
     margin: 0;
@@ -68,7 +76,6 @@
     padding-top: 16px;
     padding-bottom: 16px;
     border-left: 1px solid lightgray;
-
 }
 
 .section-2-right-flex {
@@ -99,6 +106,17 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 .section-3 {
     background-color: lightgray;
     
@@ -110,6 +128,7 @@
     text-align: center;
 }
 .course-grid {
+    width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 32px;
@@ -117,10 +136,12 @@
     padding-bottom: 32px;
     padding-left: 72px;
     padding-right: 72px;
+    margin: 0 auto;
 }
 
-.course-grid-container {
+.course-grid-item {
     background-color: white;
+
 }
 
 .section-3 img {
@@ -141,6 +162,15 @@
     
 }
 
+
+
+
+
+
+
+
+
+
 .section-4 {
     display: flex;
     flex-direction: column;
@@ -154,7 +184,6 @@
 .section-4 h1 {
     text-align: center;
     padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 video {
@@ -162,6 +191,8 @@ video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
+    margin-top: 32px;
+
 }
 
 .section-4-flex-col-large {
@@ -180,6 +211,21 @@ video {
     padding-top: 24px;
     padding-bottom: 8px;
 }
+
+.section-4-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 16px;
+}
+
+.section-4-right-flex {
+    display: flex;
+}
+
+
+
+
 
 footer {
     padding-top: 16px;
