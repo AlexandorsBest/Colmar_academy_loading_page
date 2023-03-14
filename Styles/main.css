@@ -136,3 +136,25 @@
 .section-4 {
     background-color: white;
 }
+
+.section-4-container {
+    display: flex;
+}
+.section-4 h1 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+video {
+    width: 100%;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.section-4-flex-col-large {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
