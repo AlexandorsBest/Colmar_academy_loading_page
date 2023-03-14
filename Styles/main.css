@@ -1,5 +1,8 @@
 .banner {
-    
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    margin-top: 96px;
 }
 
 .section-1-grid {
@@ -8,32 +11,14 @@
     column-gap: 24px;
     background-color: lightgray;
     margin: 0;
-    padding-top: 96px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 32px;
 }
-
-@media screen and (min-width: 641px) {
     .section-1-right {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
-}
 
-.section-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 24px;
-    background-color: white;
-    margin: 0;
-    padding-top: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 32px;
-}
 
 .start-here {
     width: 100%;
@@ -49,46 +34,64 @@
 
 }
 
-.spacing {
-    padding-bottom: 24px;
-}
-
-
 .section-2-row {
     display: flex;
     margin: 0;
-    padding-top: 32px;
-    padding-left: 24px;
-    padding-bottom: 32px;
-    gap: 0px 24px;
+
 }
 
 .section-2-left {
     display: flex;
     flex-direction: column;
     width: 60%;
-    gap: 32px;
-    
- 
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 32px;
+}
+.section-2-left img {
+    width: 100%;
+}
+
+.section-2-left h1 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.section-2-left h4 {
+    padding-top: 32px;
 }
 
 .section-2-right {
     display: flex;
     flex-direction: column;
     width: 40%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-left: 1px solid lightgray;
+
 }
 
 .section-2-right-flex {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-2-right-last {
     display: flex;
 }
 
 .small-image {
     width: 35%;
     margin: 1rem;
-    height: auto;
 }
 
+
+.right-image {
+    width: 100%;
+    height: auto;
+}
 .flex-column {
+    width: 65%;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -116,29 +119,37 @@
     padding-right: 72px;
 }
 
+.course-grid-container {
+    background-color: white;
+}
+
 .section-3 img {
     width: 100%;
     height: auto;
 }
 
+
 .course-text {
-    background-color: white;
     padding: 16px;
     text-align: left;
 }
 
-.section-3 h2, p {
+.section-3 h2, 
+.section-3 p {
     padding-top: 8px;
     padding-bottom: 8px;
     
 }
 
 .section-4 {
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
 
 .section-4-container {
     display: flex;
+    border-bottom: 1px solid lightgray;
 }
 .section-4 h1 {
     text-align: center;
@@ -157,4 +168,33 @@ video {
     display: flex;
     flex-direction: column;
     width: 60%;
+}
+
+.section-4-flex-col-large {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+
+.section-4-flex-col-large h2 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+footer {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    justify-content: space-between
+}
+
+.flex {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+
+footer li {
+    padding: 0 0.5rem;
 }
