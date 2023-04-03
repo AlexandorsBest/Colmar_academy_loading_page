@@ -3,6 +3,8 @@
     margin-right: 24px;
     margin-bottom: 32px;
     margin-top: 96px;
+    width: 100%;
+    
 }
 
 .section-1-grid {
@@ -17,6 +19,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        padding-left: 16px;
+        
     }
 
 
@@ -33,13 +37,6 @@
     text-align: center;
 
 }
-
-
-
-
-
-
-
 
 
 .section-2-row {
@@ -106,17 +103,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .section-3 {
     background-color: lightgray;
     
@@ -161,13 +147,6 @@
     padding-bottom: 8px;
     
 }
-
-
-
-
-
-
-
 
 
 
